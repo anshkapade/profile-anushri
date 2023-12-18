@@ -5,45 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index</title>
   </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- CDN Link - Google font families -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
   <style>
     header {
       color: rgb(184, 5, 5);
       background-color: rgb(237, 248, 185);
-      font-weight: bolder;
-      text-decoration: solid;
+      text-align: right;
     }
     nav a {
       text-decoration: none;
       margin-right: 40px;
+      font-family: 'Concert One', sans-serif;
     }
     #homelink {
       margin-left: 10px;
     }
-    span {
-      margin-right: 70px;
-    }
+     
+    
     footer a {
       text-decoration: none;
+      margin-right: 60px;
+    }
+    #linkedin{
+      margin-left: 20px;
+    }
+    
+     header span{
       margin-right: 40px;
-    }
-    #link {
-      margin-left: 10px;
-    }
-    header span {
-      margin-right: 40px;
-    }
+     }
+     header img{
+       width: 30px;
+       height: 30px;
+       float: left;
+       
+     }
+    
+     
+
   </style>
   <body>
     <!-- Header Section -->
 
     <header>
-      <span><strong>Name :</strong>Anushri Kapade</span>
-      <span><strong>Mobile No. :</strong>9876 5432 90</span>
-      <span><strong>Email ID :</strong>abc@gmail.com</span>
+      <img src="assets/Ak logo.jfif" alt="logo">
+      <span><strong><i class="fa fa-user" aria-hidden="true"></i></strong> Anushri Kapade</span>
+      <span><strong><i class="fa fa-phone" aria-hidden="true"></i></strong> 9876 5432 90</span>
+      <span><strong><i class="fa fa-envelope" aria-hidden="true"></i></strong> abc@gmail.com</span>
     </header>
     <hr />
     <!-- Navigation Section -->
     <nav>
+     
       <a href="home.html" target="My Frame" id="homelink">Home</a>
       <a href="techStack.html" target="My Frame">Technology Stack</a>
       <a href="eduacation.html" target="My Frame">Education</a>
@@ -63,9 +80,10 @@
 
     <!-- Footer Section -->
     <footer>
-      <a href="https://in.linkedin.com/anushri kapade" id="link">LinkedIn</a>
-      <a href="https://github.com/anushri kapade">Github</a>
-      <a href="https://www.naukri.com/Anushri Kapade">Naukari</a>
+      <span id="linkedin"> <a href="https://in.linkedin.com/anushri kapade" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
+      <span> <a href="https://github.com/anushri kapade" target="_blank"> <i class="fa fa-github-square" aria-hidden="true"></i></a></span>
+      <span> <a href="https://www.naukri.com/Anushri Kapade" target="_blank"> <i class="fa fa-laptop" aria-hidden="true"></i></span>
+      </a>
     </footer>
   </body>
 </html>
